@@ -7,6 +7,12 @@
 p{
     font-size: .9em;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: -15px;
+}
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
      padding-right: 0px; 
@@ -91,7 +97,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 /*------- POKEMON PAGE -------*/
-.background{
+.pokemon-wrap .background{
     height: 80vh;
     background-image:  -webkit-gradient(linear,left top, left bottom, from (rgba(0,0,0, 0.4)), to(#000)),url("../poke-jumbo.png");
     background-image: linear-gradient(rgba(0, 0 ,0 , 0.1), #000),url("../poke-jumbo.png");
@@ -99,4 +105,138 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+
+.pokemon-wrap .move{
+    position: relative;
+    overflow-y: hidden;
+    overflow: hidden;
+    height: 40vh
+}
+.pokemon-wrap .move img{
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+.pokemon-wrap .move img:last-child{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.pokemon-wrap .move img:first-child{
+    -webkit-animation: scroll 5s 3s infinite;
+    animation: scroll 5s 2s infinite;
+}
+.pokemon-wrap .desk img:first-child{
+    padding: 5% 12%;
+    -webkit-animation: scroll1 7s 3s infinite;
+    animation: scroll1 7s 2s infinite;
+}
+.pokemon-wrap .mobi img:first-child{
+    padding: 5px 33% 10px 35%;
+}
+
+.pokemon-wrap .wire-section{
+    padding: 50px 0px;
+    color: black;
+    background-color: #fff;
+}
+
+.pokemon-wrap .section{
+    padding: 50px;
+}
+.pokemon-wrap .wire-section h1{
+    margin-bottom: 50px;
+}
+
+@keyframes scroll{
+    from{top:0px;}
+    to{top:-210%;}
+}
+
+@keyframes scroll1{
+    from{top:0px;}
+    to{top:-310%;}
+}
+
+.pokemon-wrap .buttons-contain{
+    margin-top: 75px;
+}
+
+.pokemon-wrap button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: solid 2px red;
+}
+
+.pokemon-wrap .buttons-contain a{
+    color: black;
+    text-decoration: none;
+}
+
+.pokemon-wrap button:hover{
+    -webkit-animation: border 0.3s  1;
+    animation: border 0.3s 1;
+    transition: 0.3s;
+    border:none;
+    border-bottom: red solid;
+}
+
+@keyframes border{
+    0%   {border:none;}
+    25%  {border-left: red 2px solid;}
+    50%  {border-left:none;border-top: red 2px solid;}
+    75%  {border-top: none ; border-right:  red 2px solid;}
+    100% {border-right: red 2px; border-bottom:red 2px solid}
+}
+
+.pokemon-wrap .web-button{
+    margin-bottom: 20px;
+}
+
+
+.formN {
+    background-color: #fbfbfb;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.3);
+    font-size: 1.7rem;
+    padding: 4rem 0;
+    text-align: left;;
+}
+
+input{
+    font-size: 1.4rem;
+}
+.form__textarea {
+    height: 7rem;
+    font-size: 1.0rem;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.form__submit, .form__submitted-confirm {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.form__submit--btn, .form__submitted-confirm--btn{
+    background-color: brown;
+    border-radius: 5rem;
+    border: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+    color: white;
+}
+
+.form__submit--btn:hover{
+    background-color: rgb(117, 116, 116);
+    color: brown;
+    transition: 0.5s;
+}
+
+label{
+    font-size: 1.4rem;
 }
