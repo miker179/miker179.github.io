@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './MichaelRIvera.JPG';
 import './App.css';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
@@ -7,7 +6,8 @@ import Projects from './components/Projects';
 import Error from './components/Error';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
-
+import './css/bootstrap.min.css';
+import './css/main.css';
 
 function App() {
   return (
@@ -20,14 +20,6 @@ function App() {
         <BrowserRouter>
           <Navi />
         </BrowserRouter>
-        <a
-          className="App-link"
-          href="https://github.com/miker179"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out !!!!!
-        </a>
       </header>
     </div>
   );

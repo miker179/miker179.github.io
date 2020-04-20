@@ -8,9 +8,7 @@ class AboutMe extends React.Component {
     render() {
         return (
             <div>
-                <BrowserRouter>
-                    <Navbar />
-                </BrowserRouter>
+                <Navbar />
                 <h1>AboutMe</h1>
             </div>
         )

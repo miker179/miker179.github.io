@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home-wrap {
+    height: 100vh;
+    background-image:  -webkit-gradient(linear,left top, left bottom, from (rgba(0,0,0, 0.4)), to(#000)),url("../background.jpg");
+    background-image: linear-gradient(rgba(0, 0 ,0 , 0.4), #000),url("../background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.home h1 {
+    text-align: center;
+}
+
+.profile{
+    padding-top: 13%;
+}
+   
+.home .navbar a {
+    background-color: brown;
+}
+.home .navbar .col-1{
+    flex: none;
+    max-width: 10%;
+}
