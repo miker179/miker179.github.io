@@ -27,7 +27,7 @@ class Home extends React.Component {
                         <Link className="col-1 offset-1" to="/projects">Projects </Link>
                         <Link className="col-1 offset-1 about" to="/aboutme">About Me</Link>
                     </div>
-                    <a
+                    <a 
                         className="App-link"
                         href="https://github.com/miker179"
                         target="_blank"
