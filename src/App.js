@@ -3,8 +3,10 @@ import './App.css';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import Pokemon from './components/Pokemon';
 import Error from './components/Error';
 import Navbar from './components/Navbar';
+
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import './css/bootstrap.min.css';
 import './css/main.css';
@@ -33,6 +35,7 @@ function Navi() {
         <Route path="/" component={Home} exact />
         <Route path="/projects" component={Projects} />
         <Route path="/aboutme" component={AboutMe} />
+        <Route path= "/pokemon" component={Pokemon}/>
         <Route component={Error} />
       </Switch>
     </main>
