@@ -59,50 +59,6 @@ class AboutMe extends React.Component {
                         </div>
                     </form>
                 </div>
-                {/* <div class="row">
-                    <form class="form" method="POST" action="https://script.google.com/macros/s/AKfycbyg8TbXvfnEMELI9kxWSoiWCpoQwVGIzxaR8VJW/exec">
-                        <div class="form__container">
-                            <div class="form__text-box">
-                                <p class="form__text">
-                                    Are you an up and coming artist looking to enhance your career?
-                        </p>
-                                <p class="form__text">
-                                    Feel free to send me a message along with your music so we can get to work!
-                        </p>
-                            </div>
-
-                            <div class="form__content-box">
-                                <div class="form__name">
-                                    <label for="name">Name: </label>
-                                    <input class="form__input" id="name" name="Name" placeholder="Your Name" required />
-                                </div>
-
-                                <div class="form__email">
-                                    <label for="email">Email Address:</label>
-                                    <input class="form__input" id="email" name="Email" type="email" required placeholder="Your Email" />
-                                </div>
-
-                                <div class="form__phone">
-                                    <label for="phone">Phone: </label>
-                                    <input class="form__input" id="phone" name="Phone" required placeholder="Your Phone #" />
-                                </div>
-                            </div>
-
-
-                            <div class="form__message">
-                                <label for="message">Message: </label>
-                                <textarea class="form__textarea" id="message" name="Message" rows="10" required placeholder="Please describe your purpose and attach a link to fire music here..."></textarea>
-                            </div>
-
-                            <span class="form__invalid" style="display:none">Must be a valid email address</span>
-
-                            <div class="form__submit">
-                                <button class="form__submit--btn">Book Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div> */}
-
 
 
 
