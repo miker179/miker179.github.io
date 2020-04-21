@@ -22,9 +22,9 @@ class Pokemon extends React.Component {
                         </div>
                         <div class="col-6">
                             <h4>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                 dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                                  clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                This website help me grow as a web developer and improve with jquery. It help me make a mobile 
+                                website from a Desktop website. I also work with a little of javascript and start doing animation in
+                                css. I learn how to use the keyframes and work with svgs file, in order to animate them.
                             </h4>
                         </div>
                     </div>
