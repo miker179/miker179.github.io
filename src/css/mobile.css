@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    body {
+      color:red;
+      
+    }
+    h1{
+        color: brown;
+    }
+    .profile{
+        padding-top: 15%;
+    }
+}

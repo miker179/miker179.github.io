@@ -10,8 +10,8 @@ class Home extends React.Component {
             <div className="home-wrap ">
 
                 <div className="container-fluid home">
-                    <div className="row justify-content-md-center profile">
-                        <div className="col-2">
+                    <div className="row justify-content-center profile">
+                        <div className="col-7 col-sm-7 col-md-3">
                             <img src={logo} className="App-logo" alt="logo" />
                         </div>
                     </div>
@@ -23,9 +23,9 @@ class Home extends React.Component {
                         </div>
                     </div>
                     <div className="row justify-content-center navbar" >
-                        <Link className="col-1" to="/">Home </Link>
-                        <Link className="col-1 offset-1" to="/projects">Projects </Link>
-                        <Link className="col-1 offset-1 about" to="/aboutme">About Me</Link>
+                        <Link className="col-sm-12 col-md-1" to="/">Home </Link>
+                        <Link className="col-sm-12 col-md-1 offset-md-1" to="/projects">Projects </Link>
+                        <Link className="col-sm-12 col-md-1 offset-md-1 about" to="/aboutme">About Me</Link>
                     </div>
                     <a 
                         className="App-link"

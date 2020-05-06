@@ -10,6 +10,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import './css/bootstrap.min.css';
 import './css/main.css';
+import './css/mobile.css';
 
 function App() {
   return (
