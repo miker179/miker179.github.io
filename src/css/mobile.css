@@ -30,4 +30,13 @@ used for background---*/
         font-size: 1em;
         text-align: left;
     }
+
+    /*-------About Me-------*/
+    .formN label,input{
+        width:100%;
+        font-size: 0.75em;
+    }
+    .form__text{
+        font-size: .8em;
+    }
 }

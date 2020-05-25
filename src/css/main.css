@@ -196,7 +196,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .pokemon-wrap .web-button{
     margin-bottom: 20px;
 }
-
+/*------About Me--------*/
 
 .formN {
     background-color: #fbfbfb;
@@ -205,7 +205,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.3);
     font-size: 1.7rem;
     padding: 4rem 0;
-    text-align: left;;
+    text-align: left;
 }
 
 input{

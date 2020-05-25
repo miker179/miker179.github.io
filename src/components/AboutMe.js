@@ -10,13 +10,12 @@ class AboutMe extends React.Component {
             <div>
 
 
-
                 <Navbar />
-                <h1>AboutMe</h1>
+                <h1>About Me</h1>
 
-                <div className="row justify-content-md-center">
-                    <form className="col-8 formN">
-                        <div className="form-container row justify-content-md-center">
+                <div className="row justify-content-center">
+                    <form className="col-11 col-sm-11 col-md-8 formN">
+                        <div className="form-container row justify-content-center">
                             <div className="col-11">
 
                                 <div class="form__text-box row">
@@ -29,17 +28,17 @@ class AboutMe extends React.Component {
                                 </div>
 
                                 <div class="form__content-box row">
-                                    <div class="form__name col-4">
+                                    <div class="form__name col-12 col-md-4">
                                         <label for="name">Name: </label>
                                         <input class="form__input" id="name" name="Name" placeholder="Your Name" required />
                                     </div>
 
-                                    <div class="form__email col-4">
+                                    <div class="form__email col-12 col-md-4">
                                         <label for="email">Email Address:</label>
                                         <input class="form__input" id="email" name="Email" type="email" required placeholder="Your Email" />
                                     </div>
 
-                                    <div class="form__phone col-4">
+                                    <div class="form__phone col-12 col-md-4">
                                         <label for="phone">Phone: </label>
                                         <input class="form__input" id="phone" name="Phone" required placeholder="Your Phone #" />
                                     </div>
