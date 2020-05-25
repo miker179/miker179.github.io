@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf9f2070.chunk.css",
+    "main.js": "/static/js/main.b8cc8750.chunk.js",
+    "main.js.map": "/static/js/main.b8cc8750.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5cedecd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5cedecd.js.map",
+    "static/js/2.90b77b09.chunk.js": "/static/js/2.90b77b09.chunk.js",
+    "static/js/2.90b77b09.chunk.js.map": "/static/js/2.90b77b09.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c1531d50b6727c190bdf112169a00188.js": "/precache-manifest.c1531d50b6727c190bdf112169a00188.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bf9f2070.chunk.css.map": "/static/css/main.bf9f2070.chunk.css.map",
+    "static/js/2.90b77b09.chunk.js.LICENSE.txt": "/static/js/2.90b77b09.chunk.js.LICENSE.txt",
+    "static/media/MichaelRIvera.JPG": "/static/media/MichaelRIvera.f54e5b8e.JPG",
+    "static/media/main.css": "/static/media/poke-jumbo.423d8a64.png",
+    "static/media/desktop.png": "/static/media/desktop.3db5f5f6.png",
+    "static/media/mobile.png": "/static/media/mobile.fab28003.png",
+    "static/media/pokemon-mobileWireframe.png": "/static/media/pokemon-mobileWireframe.5c7845c5.png",
+    "static/media/pokemon-wireframe.png": "/static/media/pokemon-wireframe.995318ae.png",
+    "static/media/pokemonWB.png": "/static/media/pokemonWB.63d9c23e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5cedecd.js",
+    "static/js/2.90b77b09.chunk.js",
+    "static/css/main.bf9f2070.chunk.css",
+    "static/js/main.b8cc8750.chunk.js"
+  ]
+}
