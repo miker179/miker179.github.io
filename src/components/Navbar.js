@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from "jquery";
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -50,13 +51,13 @@ const navSlide = () => {
     
     //Animate links
     navLinks.forEach((link, index) =>{
-        link.style.animation = 'navLinkFade 0.5s ease forwards ${ index / 7';
+        link.style.animation = 'navLinkFade 0.5s ease forwards ${ index / 7}';
     });
 
 }
 
 window.onload = function () {
     navSlide();
-}
+};
 
 export default Navbar;
