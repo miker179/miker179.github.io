@@ -1,3 +1,9 @@
+***************
+Make sure you install bootstrap in the react app !!!!! To make sure the app works when dowloading my package.
+
+****************
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
