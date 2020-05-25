@@ -246,3 +246,12 @@ footer{
     padding: 10px;
     font-size: .80em;
 }
+.burger{
+    display: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: cornsilk;
+    margin-top: 5px;
+}
