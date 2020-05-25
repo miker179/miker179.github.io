@@ -16,27 +16,27 @@ class Pokemon extends React.Component {
                             <h1>COMPUTER GRAPHIC AND IMAGING / WEB DEVELOPER</h1>
                         </div>
                     </div>
-                    <div class="row justify-content-md-center section">
+                    <div class="row justify-content-center section">
                         <div class="col-12">
                             <h1>Pokemon Website</h1>
                         </div>
-                        <div class="col-6">
-                            <h4>
+                        <div class="col-sm-10 col-md-6">
+                            <h4 class="pro-info">
                                 This website help me grow as a web developer and improve with jquery. It help me make a mobile 
                                 website from a Desktop website. I also work with a little of javascript and start doing animation in
                                 css. I learn how to use the keyframes and work with svgs file, in order to animate them.
                             </h4>
                         </div>
                     </div>
-                    <div class="row justify-content-md-center wire-section section">
+                    <div class="row justify-content-center wire-section section">
                         <div className="col-12">
                             <h1>Wireframes</h1>
                         </div>
-                        <div className="col-5 move desk">
+                        <div className="col-sm-10 col-md-5 move desk">
                             <img src={DesktopWire} alt="Poke-wire" />
                             <img src={Desktop} alt="desktop" />
                         </div>
-                        <div className="col-5 mobi move">
+                        <div className="col-sm-10 col-md-5 mobi move">
                             <img src={MobileWire} alt="Poke-Mobiwire" />
                             <img src={Mobile} alt="mobile" />
                         </div>

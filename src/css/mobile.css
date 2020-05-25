@@ -13,9 +13,21 @@ used for background---*/
       
     }
     h1{
-        color: brown;
+        
     }
     .profile{
         padding-top: 15%;
+    }
+
+    .mobi{
+        margin-top: 40px;
+        margin-left: -30px;
+    }
+    .desk{
+        margin-left: -30px;
+    }
+    .pro-info{
+        font-size: 1em;
+        text-align: left;
     }
 }
