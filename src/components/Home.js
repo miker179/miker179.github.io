@@ -18,7 +18,7 @@ class Home extends React.Component {
                     <div className="row">
                         <div className="col-12">
                             <h1>
-                                Computer Graphic and Imaging / Web Developers
+                                Computer Graphic and Imaging / Web Developer
                         </h1>
                         </div>
                     </div>

@@ -14,16 +14,16 @@ class Projects extends React.Component {
                             <h1>COMPUTER GRAPHIC AND IMAGING / WEB DEVELOPER</h1>
                         </div>
                     </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
                             <h1>Projects</h1>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-12  col-md-4">
                             <img src={Pokemon} className="thumbnail" alt="pokemon" />
                             <h3><Link to="/pokemon">Pokemon Website</Link></h3>
                             <p>Made with HTML and CSS and JS</p>
                         </div>
-                        <div class="col-4 offset-1">
+                        <div class="col-sm-12 col-md-4 offset-md-1">
                             <img src={Pokemon} className="thumbnail" alt="pokemon" />
                             <h3>P</h3>
                         </div>
