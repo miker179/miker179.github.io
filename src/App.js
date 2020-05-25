@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Pokemon from './components/Pokemon';
 import Error from './components/Error';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import './css/bootstrap.min.css';
@@ -42,6 +43,8 @@ function Navi() {
     </main>
   )
 }
+
+
 
 
 export default App;

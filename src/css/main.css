@@ -241,3 +241,8 @@ input{
 label{
     font-size: 1.4rem;
 }
+
+footer{
+    padding: 10px;
+    font-size: .80em;
+}

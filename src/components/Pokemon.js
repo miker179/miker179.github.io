@@ -4,6 +4,7 @@ import Mobile from '../mobile.png';
 import Desktop from '../desktop.png';
 import DesktopWire from '../pokemon-wireframe.png';
 import MobileWire from '../pokemon-mobileWireframe.png';
+import Footer from './Footer';
 
 class Pokemon extends React.Component {
     render() {
@@ -51,8 +52,8 @@ class Pokemon extends React.Component {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
-
         )
     }
 }

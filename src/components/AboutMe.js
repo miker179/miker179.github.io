@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Projects from './Projects';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Footer from './Footer';
 
 class AboutMe extends React.Component {
     render() {
@@ -59,7 +60,7 @@ class AboutMe extends React.Component {
                     </form>
                 </div>
 
-
+            <Footer />
 
             </div>
         )

@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './Navbar';
 import Pokemon from '../pokemonWB.png';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 class Projects extends React.Component {
     render() {
@@ -31,6 +32,7 @@ class Projects extends React.Component {
                     </div>
 
                 </div>
+                <Footer />
             </div>
 
         )
